@@ -1,0 +1,342 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: #131921;
+  color: antiquewhite;
+  height: 16vh;
+  width: 100vw;
+  overflow: hidden;
+position: sticky;
+ 
+top: 0;
+  z-index: 5;
+
+}
+
+.logodiv {
+  overflow: hidden;
+  position: relative;
+  bottom: 2vh;
+  left: 0.8vh;
+}
+.logo {
+  overflow: hidden;
+  font-size: 3vw;
+  position: relative;
+  bottom: 3vh;
+}
+.logospan {
+  overflow: hidden;
+  color: rgb(255, 4, 4);
+}
+
+.serachinput {
+  overflow: hidden;
+  margin-top: 1.2vh;
+  height: 11vh;
+  width: 38vw;
+  position: relative;
+}
+
+.backendname {
+  overflow: hidden;
+  border: 1px solid rgb(239, 210, 210);
+}
+
+.backendname {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2vh;
+  right: 2.5vw;
+  height: 10.5vh;
+  width: 10vw;
+  border-radius: 10px;
+}
+
+.cart {
+  overflow: hidden;
+  border: 1px solid rgb(222, 202, 202);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: 2vh;
+  right: 4.5vw;
+  height: 10.5vh;
+  width: 7vw;
+  border-radius: 10px;
+}
+
+/*  ------------------image slidebar starts here------------ */
+
+.imgslider {
+  display: flex;
+  width: 100vw;
+  height: 80vh;
+  background-color: #cab8b0;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 1vh;
+}
+
+.sliderimgs {
+  overflow: hidden;
+  width: 90vw;
+  object-fit: cover;
+  border-radius: 18px;
+}
+.sliderbtn {
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+
+  height: 25vh;
+}
+
+/*-----------------  product section srarts here---------- */
+
+.productsec {
+  display: flex;
+  height: 60vh;
+  width: 100vw;
+  border: 1px solid red;
+  justify-content: center;
+  align-items: center;
+  gap: 2vw;
+}
+
+.productdetaildiv {
+  padding: 10px;
+  height: 40vh;
+  width: 40vw;
+  border: 1px solid green;
+  border-radius: 10px;
+}
+
+/*     ----------------------long slibar starts here-----------------  */
+
+.longslidebar {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  height: 35vh;
+  border: 1px solid red;
+  gap: 2.5vw;
+}
+
+.longsliderleft {
+  overflow: hidden;
+  /* border: 1px solid rgb(72, 255, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: chocolate;
+}
+
+.longsliderimgs {
+}
+
+.longsliderright {
+  /* border: 1px solid rgb(21, 255, 0); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  background-color: chocolate;
+}
+
+/*-------------------  footer starts here----------------  */
+
+.footer {
+  width: 100vw;
+  color: antiquewhite;
+  height: 65vh;
+  border-radius: 6px;
+  /* border: 1px solid red; */
+  margin-top: 5vh;
+  background-color: #232f3e;
+}
+
+.mainfooterdiv {
+  display: flex;
+  gap: 3.5vw;
+}
+
+.footerdiv {
+  position: relative;
+  top: 8vh;
+  left: 8vw;
+  height: 30vh;
+  width: 18vw;
+}
+
+.footerdiv p {
+  font-size: 3vh;
+}
+
+.love {
+  text-align: center;
+  font-size: 2vw;
+  margin-top: 5vh;
+}
+.icons {
+  text-align: center;
+  /* width: 50vw; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+}
+
+.icons h1 {
+  font-size: 4.5vh;
+}
+
+.message {
+}
+/* ---------------media screen starts here  */
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: flex;
+    width: 100vw;
+    border: 2px solid black;
+    height: 10vh;
+  }
+  .logo {
+    font-size: 5.5vw;
+  }
+  .serachinput {
+    height: 3vh;
+    width: 29vw;
+    position: relative;
+    top: 2vh;
+    border: 2px solid #e59e80;
+    border-radius: 3px;
+  }
+  .backendname {
+    border: none;
+    position: relative;
+    top: 3.3vh;
+    border: 1px solid #e59e80;
+    height: 3vh;
+    width: 10.5vw;
+    border-radius: 5px;
+  }
+  .cart {
+    border: none;
+    position: relative;
+    top: 3.4vh;
+    right: 3.4vw;
+    border: 1px solid #e59e80;
+    height: 3vh;
+    width: 10vw;
+    border-radius: 5px;
+  }
+  .imgslider {
+    height: 22vh;
+    box-shadow: 10px 5px 10px rgb(14, 14, 11);
+  }
+  .sliderbtn {
+    height: 7.5vh;
+    position: relative;
+    bottom: 25px;
+    color: rgb(23, 24, 24);
+    border-radius: 6px;
+  }
+  .sliderimgs {
+    width: 90vw;
+    height: 20vh;
+    object-fit: cover;
+  }
+  .productsec {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6.5vw;
+    background-color: bisque;
+    height: 40vh;
+    align-content: center;
+  }
+
+  .productdetaildiv {
+    border-radius: 5px;
+    height: 15vh;
+    position: relative;
+    /* bottom: 11vh; */
+  }
+
+  .productdetaildiv h3 {
+    font-size: 1.5vh;
+  }
+
+  .longslidebar {
+    margin-top: 3.5vh;
+    height: 15vh;
+  }
+
+  .footer {
+    position: relative;
+    bottom: 1.7vh;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+    width: 100vw;
+  }
+
+  .footerdiv p {
+    font-size: 1.5vh;
+  }
+
+  .love {
+    position: relative;
+    left: 38px;
+  bottom: 6vh;
+    font-size: 1.8vh;
+    width: 80vw;
+    /* ; */
+  }
+  .icons {
+    display: flex;
+    gap: 3vw;
+    text-align: center;
+    font-size: 1vh;
+    position: relative;
+    bottom: 8vh;
+  }
+
+  .icons h1 {
+    font-size: 3vh;
+  }
+
+  .email{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2vh;
+    position: relative;
+    right: 10px;
+  }
+
+  .message {
+    background-color: #131921;
+    height: 3vh;
+    width: 80vw;
+    border: 1px solid wheat;
+    margin-left: 8vw;
+    position: relative;
+    bottom: 5vh;
+
+  }
+
+  .last{
+    height: 15vh;
+  }
+}

@@ -1,0 +1,49 @@
+  .mainsection {
+  display: flex;
+  /* border: 5px solid red; */
+  overflow: hidden;
+  margin: 5px;
+  gap: 1.5vw;
+}  
+
+.leftdiv {
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  gap: 2vh;
+  height: 100vh;
+  width: 23vw;
+  padding: 2vw;
+  border-right : 1px solid rgb(59, 60, 71);
+}
+
+.rightdiv {
+  position: relative;
+  left: 20vw;
+  width: 80vw;
+  /* border: 2px solid rgb(153, 0, 255); */
+}
+
+.leftproductsdetails{
+     height: 9vh;
+border-radius: 10px;
+     border: 1px solid rgb(37, 36, 39);
+     /* font-size: 1vh; */
+
+}
+
+.active{
+  background-color: rgb(247, 129, 56);
+  height: 9vh;
+  border-radius: 10px;
+}
+
+
+@media screen and (max-width:600px) {
+  .leftproductsdetails{
+    font-size: 3.5vw;
+    text-align: center;
+    position: relative;
+    padding: 10px;
+  }
+}

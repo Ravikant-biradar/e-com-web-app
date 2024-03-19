@@ -1,0 +1,69 @@
+.pro02 {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4vw;
+  justify-content: center;
+  align-items: center;
+  /* border: 1px solid red; */
+  align-content: center;
+  margin-top: 8px;
+}
+
+.pro02apimaindiv {
+  overflow: hidden;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 20vw;
+  justify-content: center;
+  align-items: center;
+  gap: 3vh;
+  padding-top: 0.4vh;
+}
+
+.pro02apiimgs {
+  overflow: hidden;
+  display: flex;
+  height: 16vh;
+  width: 12vw;
+  object-fit: contain;
+  /* border: 1px solid rgb(74, 74, 84); */
+}
+
+
+
+.pro02btn {
+  height: 5vh;
+  width: 10vw;
+  border-radius: 5px;
+  border: 0.5px solid darkolivegreen;
+  /* margin: 3vh; */
+}
+
+@media screen and (max-width: 600px) {
+  .pro02apimaindiv {
+    height: 18vh;
+    border-radius: 10px;
+  }
+
+  .pro02apiimgs {
+    height: 5vh;
+    width: 18vw;
+    object-fit: contain;
+    /* border: 1px solid red; */
+  }
+
+  .pro02title{
+    font-size: 1.2vh;
+  }
+
+  .pro02btn{
+    height: 2vh;
+    width: 15vw;
+    font-size: 1vh;
+    position: relative;
+    bottom: 1vh;
+    background-color: coral;
+  }
+}
